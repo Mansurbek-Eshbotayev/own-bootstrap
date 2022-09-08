@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Block</title>
+</head>
+<body>
+  
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Carousel</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <main class="main">
+    <!-- <section Crousel> -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Example headline.</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em"></text></svg>
+            <div class="carousel-caption text-start mb-5 pt-5">
+              <h2 class="h1 fw-500">Example headline.</h2>
+              <p class="fs-5">Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-primary fs-5">Sign up today</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em"></text></svg>
+            <div class="carousel-caption  mb-5">
+              <h2 class="h1 fw-500">Another example headline.</h2>
+              <p class="fs-5">Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-primary fs-5">Sign up today</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em"></text></svg>
+            <div class="carousel-caption text-end mb-5">
+              <h2 class="h1 fw-500">One more for good measure.</h2>
+              <p class="fs-5">Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-primary fs-5">Sign up today</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- section list -->
+      <section class="list mt-5 pb-5 border-bottom">
+        <div class="container container-plus">
+          <div class="row">
+            <div class=" col-lg-4">
+              <img class="rounded-circle mx-auto d-block mx-md-0" src="https://via.placeholder.com/140" alt="Dark img">
+              <h2 class="text-center text-md-start">
+                Heading
+              </h2>
+              <p class="text-center text-md-start">
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+              </p>
+              <button class="btn btn-secondary mx-auto d-block mx-md-0"  type="button">iew details »</button>
+            </div>
+            <div class="col-lg-4">
+              <img class="rounded-circle" src="https://via.placeholder.com/140" alt="Dark img">
+              <h2>
+                Heading
+              </h2>
+              <p>
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+              </p>
+              <button class="btn btn-secondary "  type="button">View details »</button>
+            </div>
+            <div class="col-lg-4">
+              <img class="rounded-circle" src="https://via.placeholder.com/140" alt="Dark img">
+              <h2>
+                Heading
+              </h2>
+              <p>
+                Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+              </p>
+              <button class="btn btn-secondary "  type="button">iew details »</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Price -->
+      <section class="prise pt-2  pt-md-5 ">
+         <div class="container">
+          <div class="row network pb-3 pb-lg-5 border-bottom">
+            <div class="col col-sm-12 col-md-7">
+              <h2 class="featurette fs-1 fs-md-5">
+                First featurette heading.
+                <span class="text-muted d-block">
+                  It'll blow your mind.
+                </span> 
+              </h2>
+              <p class="lead">
+                Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+              </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-5">
+              <img class=" content__img w-100" src="https://via.placeholder.com/500" alt="">
+            </div>
+          </div>
+
+          <div class="row network pt-5 pb-3 pb-lg-5 border-bottom">
+            <div class="col-12 col-sm-12 col-md-5">
+              <img class="w-100 content__img" src="https://via.placeholder.com/500" alt="">
+            </div>
+            <div class="col col-sm-12 col-md-7">
+              <h2 class="featurette fs-1 fs-md-5">
+                Oh yeah, it's that good. 
+                <span class="text-muted d-block">
+                  See for yourself.
+                </span> 
+              </h2>
+              <p class="lead">
+                Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+              </p>
+            </div>
+          </div>
+
+          <div class="row network pt-5 pb-3 pb-lg-5 border-bottom">
+            <div class="col col-sm-12 col-md-7">
+              <h2 class="featurette fs-1 fs-md-5">
+                And lastly, this one.
+                <span class="text-muted d-block">
+                  Checkmate.
+                </span> 
+              </h2>
+              <p class="lead">
+                Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+              </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-5">
+              <img class="w-100 h-100 content__img" src="https://via.placeholder.com/500" alt="">
+            </div>
+          </div>
+         </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="siter-footer pt-5 pb-5">
+      <div class="container">
+        <div class="fotter__inner d-flex justify-content-between align-items-center">
+          <p class="d-flex align-items-center mb-0 information">
+            © 2017-2018 Company, Inc.
+            <span class="d-flex">
+              <a class="down__link text-decoration-none" href="#">Privacy</a>
+              <a class="down__link text-decoration-none" href="#">Terms</a>
+            </span>
+            
+          </p>
+
+          <a class="text-decoration-none" href="#">
+            Back to top
+          </a>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="./js/bootstrap.bundle.js"></script>
+  </body>
+  </html>
